@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>বয়কট প্রজেক্ট</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #121212;
+            color: #fff;
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+
+        #Text {
+            font-size: 1.8rem;
+            text-align: center;
+            max-width: 70%;
+            background-color: #333;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        #Text h1 {
+            color: #00FF00;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        #Text p {
+            color: #fff;
+        }
+
+        #Text a {
+            color: #00FF00;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        #Text a:hover {
+            color: #77FF77;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            opacity: 0;
+            animation: fadeIn 1s ease-out 1.5s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        footer a {
+            color: #55FF55;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #77FF77;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Text">
+        <h1>বয়কট প্রজেক্ট</h1>
+        <p>
+            একজন মুসলিম হিসাবে আমাদের কী কী প্রতিষ্ঠান বা পণ্য বয়কট করা উচিত, কেন বয়কট করা উচিত, এবং সেগুলোর বিকল্প হিসাবে কী গ্রহণ করা যেতে পারে, এ সম্পর্কিত একটি সংগ্রহশালা তৈরির কাজ চলছে। এ বিষয়ে সাহায্য করতে আগ্রহী হলে
+            <a href="https://t.me/AtTaAwon" target="_blank">আত তাআউন</a> টেলিগ্রাম গ্রুপে যুক্ত হতে পারেন।
+        </p>
+    </div>
+    <footer>
+        Powered by <a href="https://t.me/MuslimTechniciangroup" target="_blank">Muslim Technician</a>
+    </footer>
+</body>
+
+</html>
